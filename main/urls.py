@@ -22,6 +22,7 @@ router = routers.DefaultRouter()
 router.register(r'carros', UserViewSet)
 
 
+
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
